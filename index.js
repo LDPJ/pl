@@ -7,5 +7,5 @@ var wavesurfer = WaveSurfer.create({
 
 wavesurfer.play();
 
-wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3');
-wavesurfer.load(' pl/01 - Smoking Makes Me Happy(Prod. by Kwafi).mp3 ');
+/* wavesurfer.load('https://ia902606.us.archive.org/35/items/shortpoetry_047_librivox/song_cjrg_teasdale_64kb.mp3'); */
+wavesurfer.load('https://LDPJ.github.io/pl/01 - Smoking Makes Me Happy(Prod. by Kwafi).mp3 ');
