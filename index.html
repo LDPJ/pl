@@ -1,8 +1,38 @@
-<html>
-     <body>     
-<div id="waveform"></div>
-<div> </div>
+<!-- main wavesurfer.js lib -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.3/wavesurfer.min.js"></script>
-</body>
-</html>
+
+<div id="waveform"></div>
+  
+
+<div style="text-align: center">
+
+  <button class="btn btn-primary" onclick="wavesurfer.skipForward(10911)">
+    <i class="glyphicon glyphicon-refresh"></i>
+  </button>
+  
+    <button class="btn btn-primary" onclick="wavesurfer.playPause()">
+    <i class="glyphicon glyphicon-play"></i> 
+  </button>
+    
+  </button>
+
+  <p class="row">
+    <div class="col-xs-1">
+      <i class="glyphicon glyphicon-zoom-in"></i>
+    </div>
+
+    <div class="col-xs-10">
+      <input id="slider" type="range" min="1" max="200" value="1" style="width: 100%" />
+    </div>
+
+    <div class="col-xs-1">
+      <i class="glyphicon glyphicon-zoom-out"></i>
+    </div>
+  </p>
+</div>
+
 <!-- Special thank you to katspaugh -->
