@@ -1,16 +1,18 @@
 <!-- main wavesurfer.js lib -->
+<html>
+    <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.3/wavesurfer.min.js"></script>
+    </head>
+    <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.3/wavesurfer.min.js"></script>
+        <div id="waveform"></div>
 
-<div id="waveform"></div>
-  
+        <div style="text-align: center">
 
-<div style="text-align: center">
-
-  <button class="btn btn-primary" onclick="wavesurfer.skipForward(10911)">
+    <button class="btn btn-primary" onclick="wavesurfer.skipForward(10911)">
     <i class="glyphicon glyphicon-refresh"></i>
   </button>
   
@@ -35,4 +37,6 @@
   </p>
 </div>
 
+</body>
+</html>
 <!-- Special thank you to katspaugh -->
